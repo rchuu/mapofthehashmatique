@@ -20,7 +20,7 @@ public class MapOfTheHashmatique {
         Set<String> keys = songMap.keySet();
         for (String key : keys) {
             System.out.println(key);
-            // System.out.println(songMap.get(key));
+            System.out.println(String.format("Track: %s: Lyrics: %s", key, songMap.get(key)));
         }
     }
 }
